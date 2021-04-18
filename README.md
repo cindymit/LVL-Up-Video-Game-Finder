@@ -2,11 +2,11 @@
 
 ## Project Name
 
-The name of your project with deployed URL.
+Video Game Finder Database
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This database will help users look up video games by title. By using and extraction data from RAWG's video games database API, I made an finder with a simple and easy user interface.
 
 ## API and Data Sample
 
