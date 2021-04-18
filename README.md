@@ -23,12 +23,15 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Add axios api call to find and use data from RAWG's Video Games Database.
+- Render and log data on webpage. 
+- Create a search bar that logs search text input.
+- Allow user to search for video game by keyword (e.g. title name: Destiny)
+- Change background of search results divider to image stored in api data.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+
+- Create and code second search bar to allow users to search by platforms. (e.g. platform name: Playstation 5)
 
 - Add second API
 - Use local storage to save user favorites
