@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Video Game Finder Database
+[Video Game Finder Database] (https://github.com/cindymit/finder-api-project.git)
 
 ## Project Description
 
