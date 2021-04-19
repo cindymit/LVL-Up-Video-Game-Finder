@@ -40,6 +40,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 #### MVP 
 
+- Basic HTML/CSS/JS form and linking.
 - Add axios api call to find and use data from RAWG's Video Games Database.
 - Render and log search data onto webpage. 
 - Create and code a search bar that logs search text input.
