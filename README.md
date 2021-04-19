@@ -82,13 +82,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| API Research/Project Approval | H | 5hrs|  |  |
+| API Research/Project Approval | H | 5hrs| - | - |
 | Pseudocode | H | 1.5hrs| - | - |
-| Basic HTML/CSS/JS Form and Linking | H | 1.5hrs|  |  |
-| Search API Call | H | 4hrs|  |  |
-| Functionality and Coding | H | 8hrs|  |  |
-| Flexbox and CSS | H | 8hrs|  |  |
-| Responsive Design | H | 2hrs|  |  |
+| Basic HTML/CSS/JS Form and Linking | H | 1.5hrs| - | - |
+| Search API Call | H | 4hrs| - | - |
+| Functionality and Coding | H | 8hrs| - | - |
+| Flexbox and CSS | H | 8hrs| - | - |
+| Responsive Design | H | 2hrs| - | - |
 
 ## Code Snippet
 
