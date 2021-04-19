@@ -10,7 +10,25 @@ This database will help users look up video games by title. By using and extract
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
+
+```{
+    "count": 1915,
+    "next": "https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&page=2&search=persona+5",
+    "previous": null,
+    "results": [
+        {
+            "slug": "persona-5",
+            "name": "Persona 5",
+            "playtime": 105,
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 18,
+                        "name": "PlayStation 4",
+                        "slug": "playstation4"
+                    }
+                },```
 
 ## Wireframes
 
