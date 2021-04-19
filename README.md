@@ -40,35 +40,20 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 #### MVP 
 
-- Basic HTML/CSS/JS form and linking.
-- Add axios api call to find and use data from RAWG's Video Games Database.
-- Render and log search data onto webpage. 
-- Create and code a search bar that logs search text input.
-- Allow user to search for a video game by keyword (e.g. title name: Destiny). 
-- Create 'search results' divider.
-- Create 'image' divider.
-- Direct search results to the 'search results' divider.
-- Direct stored image data to show up in the 'image' divider.
-- Add banner to the top of webpage.
-- Add title below banner.
-- Add opening introductory/directions paragraph.
+- Add axios api call to find and use data from RAWG's Video Games Database. 
+- Allow user to search for a video game by input. (e.g. title name: Destiny). 
+- Render image and title.
 - Add font in CSS.
 - Use flexbox styling to align dividers below opening paragraph and adjacent to each other.
-- Style divider boxes in CSS.
-- Write function to clear previous search results upon initialization of new query.
-- Add media query for responsive design in mobile phones.
+- Remove previous search results for new search.
 
 #### PostMVP  
 
-- Create and code second search bar to allow users to search by platforms. (e.g. platform name: Playstation 5)
+- Allow users to search by platforms. (e.g. platform name: Playstation 5)
 - Style the search bar with controller image.
 - Add music track and audio control to website.
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
