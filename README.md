@@ -57,8 +57,8 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|April 19| Project Approval | Incomplete
+|April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|April 19| Project Approval | Complete
 |April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |April 20| Pseudocode / actual code | Incomplete
 |April 21| Initial Clickable Model  | Incomplete
@@ -70,10 +70,6 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 ['Time and Importance' Matrix](https://lucid.app/lucidchart/invitations/accept/inv_4cbd9ebf-8469-4e77-aa09-edb1ce701e57)
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
