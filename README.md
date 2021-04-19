@@ -28,7 +28,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
                         "name": "PlayStation 4",
                         "slug": "playstation4"
                     }
-                },
+                },```)
 
 ## Wireframes
 
