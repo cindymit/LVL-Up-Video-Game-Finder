@@ -46,6 +46,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 - Allow user to search for a video game by keyword (e.g. title name: Destiny). 
 - Direct search results to the 'search results' divider.
 - Direct stored image data to show up in the 'image' divider.
+- Write function to clear previous search results upon initialization of new query.
 - Add media queries for responsive design.
 
 #### PostMVP  
@@ -81,9 +82,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| API Research/Project Approval | H | 5hrs|  |  |
+| Pseudocode | H | 1.5hrs| - | - |
+| Basic HTML/CSS/JS Form and Linking | H | 1.5hrs|  |  |
+| Search API Call | H | 4hrs|  |  |
+| Functionality and Coding | H | 8hrs|  |  |
+| Flexbox and CSS | H | 8hrs|  |  |
+| Responsive Design | H | 2hrs|  |  |
 
 ## Code Snippet
 
