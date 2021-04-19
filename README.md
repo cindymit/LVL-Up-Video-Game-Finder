@@ -77,19 +77,20 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| API Research/Project Approval | H | 1hrs| - | - |
+| API Research/Project Approval | H | 3hrs| - | - |
 | Pseudocode | H | 1hrs| - | - |
-| Basic HTML/CSS/JS Form and Linking | H | 1hrs| - | - |
-| Coding Search API Call | H | 2hrs| - | - |
-| Create style 'search results' divider | H | 1.5hrs| - | - |
-| Create and style 'image' divider | H | 1.5hrs| - | - |
+| Basic HTML/CSS/JS Form and Linking | H | 2hrs| - | - |
+| API request based on user input | H | 2hrs| - | - |
+| Style search results | H | 3hrs| - | - |
+| Style image container | H | 2hrs| - | - |
 | Add banner | H | 1hrs| - | - |
 | Add title and opening paragraph | H | 1hrs| - | - |
 | Add font in CSS | H | 1hrs| - | - |
 | Align text and divider elements using Flexbox | H | 3hrs| - | - |
 | Style divider boxes in CSS | H | 2hrs| - | - |
-| Write function to clear previous search query | H | 1.5hrs| - | - |
-| Responsive Design for mobile | H | 2hrs| - | - |
+| Write function to clear previous search query | H | 2hrs| - | - |
+| Responsive Design for mobile | H | 3hrs| - | - |
+| Total | H | 26hrs| - | - |
 
 ## Code Snippet
 
