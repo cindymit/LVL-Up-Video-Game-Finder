@@ -2,11 +2,11 @@
 
 ## Project Name
 
-[Video Game Finder Database] (https://github.com/cindymit/finder-api-project.git)
+Video Game Finder Database
 
 ## Project Description
 
-This database will help users look up video games by title. By using and extraction data from RAWG's video games database API, I made an finder with a simple and easy user interface.
+This database will help users look up video games by title by using and extracting data from RAWG's video games database API.
 
 ## API and Data Sample
 
@@ -38,8 +38,6 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
@@ -52,9 +50,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP  
 
 - Create and code second search bar to allow users to search by platforms. (e.g. platform name: Playstation 5)
-
-- Add second API
-- Use local storage to save user favorites
 
 ## Project Schedule
 
