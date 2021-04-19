@@ -51,6 +51,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 #### PostMVP  
 
 - Create and code second search bar to allow users to search by platforms. (e.g. platform name: Playstation 5)
+- Add music track to website.
 
 ## Project Schedule
 
