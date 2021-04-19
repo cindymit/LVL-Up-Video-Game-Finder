@@ -34,7 +34,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+[Wireframe](https://whimsical.com/video-game-finder-database-ET84Qu2CCEPTbyLiYPB7xX)
 
 ### MVP/PostMVP
 
