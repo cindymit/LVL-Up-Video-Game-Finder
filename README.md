@@ -39,13 +39,14 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 ### MVP/PostMVP
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Add axios api call to find and use data from RAWG's Video Games Database.
-- Render and log data on webpage. 
+- Render and log data onto webpage. 
 - Create a search bar that logs search text input.
-- Allow user to search for video game by keyword (e.g. title name: Destiny)
-- Change background of search results divider to image stored in api data.
+- Allow user to search for a video game by keyword (e.g. title name: Destiny). 
+- Direct search results to the 'search results' divider.
+- Direct stored image data to show up in the 'image' divider.
+- Add media queries for responsive design.
 
 #### PostMVP  
 
