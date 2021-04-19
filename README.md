@@ -93,18 +93,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | API Research/Project Approval | H | 1hrs| - | - |
 | Pseudocode | H | 1hrs| - | - |
-| Basic HTML/CSS/JS Form and Linking | H | 1.5hrs| - | - |
-| Search API Call | H | 3hrs| - | - |
-| Functionality and Coding | H | 3hrs| - | - |
-| Flexbox and CSS | H | 3hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
-| Responsive Design | H | 2hrs| - | - |
+| Basic HTML/CSS/JS Form and Linking | H | 1hrs| - | - |
+| Coding Search API Call | H | 2hrs| - | - |
+| Create style 'search results' divider | H | 1.5hrs| - | - |
+| Create and style 'image' divider | H | 1.5hrs| - | - |
+| Add banner | H | 1hrs| - | - |
+| Add title and opening paragraph | H | 1hrs| - | - |
+| Add font in CSS | H | 1hrs| - | - |
+| Align text and divider elements using Flexbox | H | 3hrs| - | - |
+| Style divider boxes in CSS | H | 2hrs| - | - |
+| Write function to clear previous search query | H | 1.5hrs| - | - |
+| Responsive Design for mobile | H | 2hrs| - | - |
 
 ## Code Snippet
 
