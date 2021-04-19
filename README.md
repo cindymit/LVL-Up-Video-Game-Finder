@@ -12,7 +12,8 @@ This database will help users look up video games by title. By using and extract
 
 I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
-```{
+```
+{
     "count": 1915,
     "next": "https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&page=2&search=persona+5",
     "previous": null,
@@ -28,7 +29,8 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
                         "name": "PlayStation 4",
                         "slug": "playstation4"
                     }
-                },```
+                },
+```
 
 ## Wireframes
 
