@@ -72,7 +72,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-[`Time and Importance` Matrix](https://lucid.app/lucidchart/invitations/accept/inv_4cbd9ebf-8469-4e77-aa09-edb1ce701e57)
+['Time and Importance' Matrix](https://lucid.app/lucidchart/invitations/accept/inv_4cbd9ebf-8469-4e77-aa09-edb1ce701e57)
 
 ## Timeframes
 
