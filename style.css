@@ -1,12 +1,69 @@
 body {
-  background-color: aquamarine;
+  background-color:rgb(101,124,159);
   font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+img {
+  width: 905px;
+  height: auto;
+}
+
+#app-name {
+  text-shadow: 2px 2px gray;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 905px;
+  background: white;
 }
 
 #intro {
   font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  color: black;
+  max-width: 865px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#input-text {
+  border: 1px solid darkgray;
+  width: 610px;
 }
 
 #search-button {
   font-family: 'Press Start 2P', cursive;
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  background-color: chartreuse;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#image-data {
+  border: 2px solid black;
+  margin: 10px 20px;
+  box-sizing: border-box;
+  width: 60%;
+  height: 300px;
+}
+
+#search-data {
+  border: 2px solid black;
+  margin: 10px 20px;
+  box-sizing: border-box;
+  width: 40%;
+  height: 300px;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+}
+
+a:hover { 
+  color:white; 
 }
