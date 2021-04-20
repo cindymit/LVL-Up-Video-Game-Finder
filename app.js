@@ -15,6 +15,7 @@ const BASE_URL = `${DOMAIN}games?key={API_KEY}&`;
 // Create event handler to log search bar text input.
 async function searchVideoGames() {
   try {
+    removeGameData()
     let textInput = document.querySelector("#input-text").value
     const url = `https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&search=${textInput}`
     
@@ -44,8 +45,17 @@ searchVideoGames()
 const renderList = (games) => {
   games.forEach((game) => {
     const gameTitle = document.createElement('h3')
-    gameTitle.innerText = game.name
+    gameTitle.innerText = `Title: ${game.name}`
     document.querySelector("#search-data").append(gameTitle)
+    const gameYear = document.createElement('h3')
+    gameYear.innerText = `Released: ${game.released}`
+    document.querySelector("#search-data").append(gameYear)
+    const gameRating = document.createElement('h3')
+    gameRating.innerText = `ESRB Rating: ${game.esrb_rating.name}`
+    document.querySelector("#search-data").append(gameRating)
+    const gameGenre = document.createElement('h3')
+    gameGenre.innerText = `Genres: ${game.genres[0].name}, ${game.genres[1].name}`
+    document.querySelector("#search-data").append(gameGenre)
     const gameImage = document.createElement('img')
     gameImage.src = game.background_image
     document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
@@ -60,7 +70,12 @@ getSearchInput.addEventListener('click', searchVideoGames)
 
 // Remove current search.
 
-
+function removeGameData() {
+  const removeGameData = document.querySelector('#search-data')
+  while (removeGameData.lastChild) {
+    removeGameData.removeChild(removeGameData.lastChild)
+  }
+}
 
 // Responsive Design.
 
