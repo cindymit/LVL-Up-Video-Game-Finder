@@ -22,8 +22,11 @@ async function searchVideoGames() {
       return null
     } else {
     const response = await axios.get(url)
-      console.log(response.data.results[0])
-      // return response
+      // console.log(response.data.results)
+      const smallAmt = response.data.results.slice(0, 1)
+      console.log(smallAmt)
+      renderList(smallAmt)
+      return response
     }
   }
   catch (error) {
@@ -35,24 +38,19 @@ searchVideoGames()
 
 
 // Render search data. Create dynamic HTML.
-
-// function renderData() {
-
-// }
-
-
-
 // Append search data.
-
-
-
 // Render image data.
-
-
-
 // Append image data.
-
-
+const renderList = (games) => {
+  games.forEach((game) => {
+    const gameTitle = document.createElement('h3')
+    gameTitle.innerText = game.name
+    document.querySelector("#search-data").append(gameTitle)
+    const gameImage = document.createElement('img')
+    gameImage.src = game.background_image
+    document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
+  });
+}
 
 // Button event handler.
 
@@ -72,3 +70,7 @@ getSearchInput.addEventListener('click', searchVideoGames)
 
 // Search by platform.
 
+
+// games.filter(callback function(game) {
+//   game.dev === 'nintendo'
+// })
