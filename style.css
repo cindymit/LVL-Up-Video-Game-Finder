@@ -1,21 +1,21 @@
 body {
   background-color:black;
-  font-family: 'Lobster', cursive;
+  font-family: 'Jura', sans-serif;
   text-align: center;
 }
 
 img {
-  width: 905px;
+  width: 100%;
   height: auto;
   margin-bottom: 10px;
-  border: 1px solid chartreuse;
+  flex-shrink: 1;
 }
 
 #app-name {
   text-shadow: 2px 2px gray;
   border: 1px solid chartreuse;
   margin: 0 auto;
-  width: 887px;
+  width: auto;
   background: white;
   font-family: 'Press Start 2P', cursive;
   padding: 10px 10px 10px 10px;
@@ -33,8 +33,9 @@ img {
 }
 
 #input-text {
-  border: 1px solid darkgray;
-  width: 610px;
+  border: 1px solid chartreuse;
+  width: auto;
+  padding: 5px 5px 5px 5px;
 }
 
 #search-button {
@@ -42,34 +43,40 @@ img {
   border: 1px solid black;
   padding: 10px 10px 10px 10px;
   background-color: chartreuse;
+  margin: 10px;
+}
+
+#search-button:hover, #search-button:focus {
+  border: 1px solid chartreuse;
+  background-color: white;
 }
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 10px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 #image-data {
-  margin: 10px 20px;
+  margin: 10px -5px 20px -5px;
   box-sizing: border-box;
-  width: 70%;
-  height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #search-data {
-  margin: 10px 20px;
+  margin: 10px -5px 20px -5px;
   box-sizing: border-box;
   width: 40%;
   height: 300px;
   font-family: 'sans-serif';
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
   font-family: 'Jura', sans-serif;
-  color: chartreuse
+  color: chartreuse;
 }
 
 footer {
@@ -88,3 +95,8 @@ a:hover {
   color:chartreuse; 
 }
 
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
