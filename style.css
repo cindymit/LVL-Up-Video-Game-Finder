@@ -24,11 +24,13 @@ img {
   max-width: 865px;
   padding: 20px;
   margin: 0 auto;
+  border: 1px solid rgb(182,98,150);
 }
 
 #input-text {
   border: 1px solid darkgray;
   width: 610px;
+  border: 1px solid black;
 }
 
 #search-button {
@@ -41,18 +43,23 @@ img {
 .container {
   display: flex;
   justify-content: space-evenly;
+  border: 1px solid orange;
+  margin-top: 20px;
 }
 
 #image-data {
-  border: 2px solid black;
+  border: 2px solid blue;
   margin: 10px 20px;
   box-sizing: border-box;
-  width: 60%;
+  width: 100%;
   height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #search-data {
-  border: 2px solid black;
+  border: 2px solid yellow;
   margin: 10px 20px;
   box-sizing: border-box;
   width: 40%;
@@ -62,6 +69,7 @@ img {
 a {
   color: black;
   text-decoration: none; 
+  border: 1px solid red;
 }
 
 a:hover { 
