@@ -2,20 +2,22 @@ body {
   background-color:black;
   font-family: 'Jura', sans-serif;
   text-align: center;
+  color: chartreuse;
 }
 
 img {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
-  flex-shrink: 1;
+  margin-left: 5px;
+  justify-content: center;
 }
 
 #app-name {
   text-shadow: 2px 2px gray;
   border: 1px solid chartreuse;
   margin: 0 auto;
-  width: auto;
+  width: 100%;
+  max-width: 900px;
   background: white;
   font-family: 'Press Start 2P', cursive;
   padding: 10px 10px 10px 10px;
@@ -34,8 +36,9 @@ img {
 
 #input-text {
   border: 1px solid chartreuse;
-  width: auto;
+  width: 100%;
   padding: 5px 5px 5px 5px;
+  max-width: 400px;
 }
 
 #search-button {
@@ -65,6 +68,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 50%;
 }
 
 #search-data {
@@ -100,3 +104,4 @@ a:hover {
     width: 100%;
   }
 }
+

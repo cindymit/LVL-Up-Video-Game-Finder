@@ -51,7 +51,7 @@ const renderList = (games) => {
     gameYear.innerText = `Released: ${game.released}`
     document.querySelector("#search-data").append(gameYear)
     const gameRating = document.createElement('h3')
-    gameRating.innerText = `ESRB Rating: ${game.esrb_rating.name}`
+    gameRating.innerText = `ESRB Rating: ${game.esrb_rating}`
     document.querySelector("#search-data").append(gameRating)
     const gameGenre = document.createElement('h3')
     gameGenre.innerText = `Genres: ${game.genres[0].name}, ${game.genres[1].name}`
@@ -59,6 +59,10 @@ const renderList = (games) => {
     const gameImage = document.createElement('img')
     gameImage.src = game.background_image
     document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
+    for (i = 0; i < game.short_screenshots.length; i++) {
+      const gameScreenshots = document.createElement('img')
+      gameScreenshots.src = `${game.short_screenshots[i].image}`
+      document.querySelector(".slider").append(gameScreenshots)}
   });
 }
 
@@ -76,18 +80,3 @@ function removeGameData() {
     removeGameData.removeChild(removeGameData.lastChild)
   }
 }
-
-// Responsive Design.
-
-
-
-
-
-/* -----------POST-MVP----------- */
-
-// Search by platform.
-
-
-// games.filter(callback function(game) {
-//   game.dev === 'nintendo'
-// })
