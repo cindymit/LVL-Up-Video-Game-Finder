@@ -42,10 +42,11 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 - Add axios api call to find and use data from RAWG's Video Games Database. 
 - Allow user to search for a video game by input. (e.g. title name: Destiny). 
-- Render image and title.
+- Render image, title, date of release, esrb_rating, and genre(s).
 - Add font in CSS.
 - Use flexbox styling to align dividers below opening paragraph and adjacent to each other.
 - Remove previous search results for new search.
+- Allow user to scroll back to the top of webpage.
 
 #### PostMVP  
 
