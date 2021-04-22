@@ -1,6 +1,8 @@
 const DOMAIN = 'https://api.rawg.io/api/';
 const API_KEY = '6759a297484a4e7dbebc9d3a8bb77ed4';
 const BASE_URL = `${DOMAIN}games?key={API_KEY}&`;
+
+
 // search url = `${DOMAIN}games?key={API_KEY}&search=${textInput}`;
 // example = "https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&search=destiny"
 
@@ -68,6 +70,14 @@ const renderList = (games) => {
       document.querySelector(".gallery-container").append(gameScreenshots)}
   });
 }
+
+let audioVolume = document.getElementById("audioPlayer");
+audioVolume.autoplay = true;
+audioVolume.volume = 0.5;
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
 
 // Button event handler.
 

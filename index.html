@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="top">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <h1 id="app-name">LVL Up! - Video Game Finder</h1>
     <p id="intro">Welcome to LVL Up! - Video Game Finder, powered by <a href="https://rawg.io/apidocs" target="_blank">RAWG Video Games Database API</a>! This database will help you search and find data for over 500,000 video games. Maybe you want to look up your favorite or maybe you're looking for information on a new game! Just type what you're looking for down in the search bar and get back to leveling up!</p>
 
-  <div class="search-bar">
+  <div class="search-bar" id="top">
     <input type="text" size="50px" id="input-text" placeholder="Type the game you are looking for in here!">
     <button id="search-button">SEARCH</button>
   </div>
@@ -33,15 +33,19 @@
   <h1>Gallery</h1>
   <div class="gallery-container"></div>
 
+  <div class="nav">
+  <a href="#top">back to search bar</a>
+  </div>
+
   <div class="music">
-    <audio src="./beneath_the_mask_instrumental_persona_5_ost_extended_7465927183433869898.mp3" controls>
+    <audio src="./beneath_the_mask_instrumental_persona_5_ost_extended_7465927183433869898.mp3" controls id="audioPlayer">
     </audio>
   </div>
 
   </main>
 
   <footer id="footer">
-    <a href="#top">Top of page</a>
+    
     <p>&copy; Cindy Mit - April 2021</p>
     <p>Credits: <a href="https://rawg.io/apidocs" target="_blank">RAWG Video Games Database API</a></p>
   </footer>

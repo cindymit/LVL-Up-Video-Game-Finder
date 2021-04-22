@@ -101,6 +101,14 @@ body {
   margin: auto;
 }
 
+.nav {
+  margin-top: 100px;
+}
+
+.music {
+  margin-top: 30px;
+}
+
 footer {
   font-family: 'Press Start 2P', cursive;
   font-size: 10px;
