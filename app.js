@@ -16,6 +16,7 @@ const BASE_URL = `${DOMAIN}games?key={API_KEY}&`;
 async function searchVideoGames() {
   try {
     removeGameData()
+    removeGallery()
     let textInput = document.querySelector("#input-text").value
     const url = `https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&search=${textInput}`
     
@@ -80,5 +81,12 @@ function removeGameData() {
   const removeGameData = document.querySelector('#search-data')
   while (removeGameData.lastChild) {
     removeGameData.removeChild(removeGameData.lastChild)
+  }
+}
+
+function removeGallery() {
+  const removeGallery = document.querySelector('.gallery-container')
+  while (removeGallery.lastChild) {
+    removeGallery.removeChild(removeGallery.lastChild)
   }
 }
