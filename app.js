@@ -51,18 +51,20 @@ const renderList = (games) => {
     gameYear.innerText = `Released: ${game.released}`
     document.querySelector("#search-data").append(gameYear)
     const gameRating = document.createElement('h3')
-    gameRating.innerText = `ESRB Rating: ${game.esrb_rating}`
+    gameRating.innerText = `ESRB Rating: ${game.esrb_rating.name}`
     document.querySelector("#search-data").append(gameRating)
-    const gameGenre = document.createElement('h3')
-    gameGenre.innerText = `Genres: ${game.genres[0].name}, ${game.genres[1].name}`
-    document.querySelector("#search-data").append(gameGenre)
+    for (i = 0; i < game.genres.length; i++) {
+      const gameGenre = document.createElement('h3')
+      gameGenre.innerText = `Genres: ${game.genres[i].name}`
+      document.querySelector("#search-data").append(gameGenre)
+    }
     const gameImage = document.createElement('img')
     gameImage.src = game.background_image
     document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
     for (i = 0; i < game.short_screenshots.length; i++) {
       const gameScreenshots = document.createElement('img')
       gameScreenshots.src = `${game.short_screenshots[i].image}`
-      document.querySelector(".slider").append(gameScreenshots)}
+      document.querySelector(".gallery-container").append(gameScreenshots)}
   });
 }
 

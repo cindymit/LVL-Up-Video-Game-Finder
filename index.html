@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +12,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet">
   <title>Video Game Finder Database</title>
-  <img src="https://www.wallpaperup.com/uploads/wallpapers/2016/02/28/900810/a7c4023143f8337ee8bdfa7dfac337f0-375.jpg" style="max-width: 700px; max-height: 400px;">
+  <img src="https://www.wallpaperup.com/uploads/wallpapers/2016/02/28/900810/a7c4023143f8337ee8bdfa7dfac337f0-375.jpg" style="max-width: 700px; max-height: 400px;" id="banner">
 </head>
 <body>
-  <a id="top"></a>
+
   <main>
-  <h1 id="app-name">LVL Up! - Video Game Finder</h1>
-  <p id="intro">Welcome to LVL Up! - Video Game Finder, powered by <a href="https://rawg.io/apidocs" target="_blank">RAWG Video Games Database API</a>! This database will help you search and find data for over 500,000 video games. Maybe you want to look up your favorite or maybe you're looking for information on a new game! Just type what you're looking for down in the search bar and get back to leveling up!</p>
+    <h1 id="app-name">LVL Up! - Video Game Finder</h1>
+    <p id="intro">Welcome to LVL Up! - Video Game Finder, powered by <a href="https://rawg.io/apidocs" target="_blank">RAWG Video Games Database API</a>! This database will help you search and find data for over 500,000 video games. Maybe you want to look up your favorite or maybe you're looking for information on a new game! Just type what you're looking for down in the search bar and get back to leveling up!</p>
 
   <div class="search-bar">
     <input type="text" size="50px" id="input-text" placeholder="Type the game you are looking for in here!">
@@ -27,25 +27,24 @@
 
   <div class="container">
     <div id="image-data" style="height: 300px; width:500px;"></div>
-
     <div id="search-data" style="height: 300px; width:500px;"></div>
   </div>
+
   <h1>Gallery</h1>
-  <div class="slider">
-    
+  <div class="gallery-container"></div>
 
-   <a href="#" class="prev" title="Previous">&#10094</a>
-   <a href="#" class="next" title="Next">&#10095</a>
- </div>
-  </div>
+  <!-- <div class="music">
+    <audio src="./beneath_the_mask_instrumental_persona_5_ost_extended_7465927183433869898.mp3" autoplay>
+    </audio>
+  </div> -->
 
-  <a href="#top">Top of page</a>
   </main>
 
-  <footer>
+  <!-- <footer id="footer">
+    <a href="#top">Top of page</a>
     <p>&copy; Cindy Mit - April 2021</p>
     <p>Credits: <a href="https://rawg.io/apidocs" target="_blank">RAWG Video Games Database API</a></p>
-  </footer>
+  </footer> -->
 
 </body>
 </html>
