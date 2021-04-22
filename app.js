@@ -72,8 +72,7 @@ const renderList = (games) => {
 }
 
 let audioVolume = document.getElementById("audioPlayer");
-audioVolume.autoplay = true;
-audioVolume.volume = 0.5;
+audioVolume.volume = 0.1;
 
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
@@ -100,3 +99,4 @@ function removeGallery() {
     removeGallery.removeChild(removeGallery.lastChild)
   }
 }
+
