@@ -54,6 +54,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 - Allow users to search by platforms. (e.g. platform name: Playstation 5)
 - Style the search bar with controller image.
 - Add music track and audio control to website.
+- Render screenshot data into gallery.
 
 ## Project Schedule
 
@@ -75,20 +76,23 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| API Research/Project Approval | H | 3hrs| - | - |
-| Pseudocode | H | 1hrs| - | - |
-| Basic HTML/CSS/JS Form and Linking | H | 2hrs| - | - |
-| API request based on user input | H | 2hrs| - | - |
-| Style search results | H | 3hrs| - | - |
-| Style image container | H | 2hrs| - | - |
-| Add banner | H | 1hrs| - | - |
-| Add title and opening paragraph | H | 1hrs| - | - |
-| Add font in CSS | H | 1hrs| - | - |
-| Align text and divider elements using Flexbox | H | 3hrs| - | - |
-| Style divider boxes in CSS | H | 2hrs| - | - |
-| Write function to clear previous search query | H | 2hrs| - | - |
-| Responsive Design for mobile | H | 3hrs| - | - |
-| Total | H | 26hrs| - | - |
+| API Research/Project Approval | H | 3hrs| 3hrs | 3hrs |
+| Pseudocode | H | 1hr | 1hr | 1hr |
+| Basic HTML/CSS/JS Form and Linking | H | 2hrs| 1.5hrs | 1.5hrs |
+| API request based on user input | H | 3hrs| 2hrs | 2hrs |
+| Style search results | H | 3hrs| 2hrs | 2hrs |
+| Style image container | H | 2hrs| 3hrs | 3hrs |
+| Add banner | H | 1hr | 0.5 hr | 0.5hr |
+| Add title and opening paragraph | H | 1hr | 1hr | 1hr |
+| Add font in CSS | H | 1hr | 0.5hr | 0.5hr |
+| Align text and divider elements using Flexbox | H | 3hrs| 3hrs | 3hrs |
+| Style divider boxes in CSS | H | 2hrs| 3hrs | 3hrs |
+| Write function to clear previous search query | H | 2hrs| 2hrs | 2hrs |
+| Responsive Design for mobile | H | 3hrs| 3hrs | 3hrs |
+| PMVP: Add/style screenshot data to gallery container | H | 3hrs| 3hrs | 3hrs |
+| PMVP: Add audio controls | H | 2hrs| 2hrs | 2hrs |
+| PMVP: Add window scroll to top | H | 1hr | 1hr | 1hr |
+| Total | H | 32hrs | 31.5hrs | - |
 
 ## Code Snippet
 
@@ -103,4 +107,4 @@ for (i = 0; i < game.short_screenshots.length; i++) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ I could not extract game data by platform so I opted to render the screenshot data into a gallery. I also added a scroll function to force start the window at the top when refreshing the page.
