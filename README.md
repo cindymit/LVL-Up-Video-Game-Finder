@@ -89,10 +89,10 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 | Style divider boxes in CSS | H | 2hrs| 3hrs | 3hrs |
 | Write function to clear previous search query | H | 2hrs| 2hrs | 2hrs |
 | Responsive Design for mobile | H | 3hrs| 3hrs | 3hrs |
-| PMVP: Add/style screenshot data to gallery container | H | 3hrs| 3hrs | 3hrs |
+| PMVP: Add/style screenshot data to gallery container | H | 3hrs| 4hrs | 4hrs |
 | PMVP: Add audio controls | H | 2hrs| 2hrs | 2hrs |
 | PMVP: Add window scroll to top | H | 1hr | 1hr | 1hr |
-| Total | H | 32hrs | 31.5hrs | - |
+| Total | H | 32hrs | 32.5hrs | 32.5hrs |
 
 ## Code Snippet
 
