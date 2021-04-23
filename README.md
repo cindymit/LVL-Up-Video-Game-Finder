@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Video Game Finder Database
+LVL Up! - Video Game Finder
 
 ## Project Description
 
@@ -94,9 +94,11 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+for (i = 0; i < game.short_screenshots.length; i++) {
+      const gameScreenshots = document.createElement('img')
+      gameScreenshots.src = `${game.short_screenshots[i].image}`
+      document.querySelector(".gallery-container").append(gameScreenshots)}
+  });
 ```
 
 ## Change Log
