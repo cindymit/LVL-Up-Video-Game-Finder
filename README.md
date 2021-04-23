@@ -60,10 +60,10 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 |---|---| ---|
 |April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |April 19| Project Approval | Complete
-|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 20| Pseudocode / actual code | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP | Incomplete
+|April 20| Core Application Structure (HTML, CSS, etc.) | Complete
+|April 20| Pseudocode / actual code | Complete
+|April 21| Initial Clickable Model  | Complete
+|April 22| MVP | Complete
 |April 23| Presentations | Incomplete
 
 ## Priority Matrix
