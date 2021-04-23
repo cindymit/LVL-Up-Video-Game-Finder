@@ -2,11 +2,11 @@
 
 ## Project Name
 
-Video Game Finder Database
+LVL Up! - Video Game Finder
 
 ## Project Description
 
-This database will help users look up video games by title by using and extracting data from RAWG's video games database API.
+This database will help users look up video games by input with data extracted from RAWG's video games database API. The results will show an image of the game and data including title, date of release, esgb rating, and genre(s). A gallery of screenshots will also render on the webpage.
 
 ## API and Data Sample
 
@@ -46,13 +46,15 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 - Add font in CSS.
 - Use flexbox styling to align dividers below opening paragraph and adjacent to each other.
 - Remove previous search results for new search.
-- Allow user to scroll back to the top of webpage.
+
 
 #### PostMVP  
 
+- Allow user to scroll back to the top of webpage.
 - Allow users to search by platforms. (e.g. platform name: Playstation 5)
 - Style the search bar with controller image.
 - Add music track and audio control to website.
+- Render screenshot data into gallery.
 
 ## Project Schedule
 
@@ -60,10 +62,10 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 |---|---| ---|
 |April 16-18| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |April 19| Project Approval | Complete
-|April 20| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|April 20| Pseudocode / actual code | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP | Incomplete
+|April 20| Core Application Structure (HTML, CSS, etc.) | Complete
+|April 20| Pseudocode / actual code | Complete
+|April 21| Initial Clickable Model  | Complete
+|April 22| MVP | Complete
 |April 23| Presentations | Incomplete
 
 ## Priority Matrix
@@ -74,30 +76,35 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| API Research/Project Approval | H | 3hrs| - | - |
-| Pseudocode | H | 1hrs| - | - |
-| Basic HTML/CSS/JS Form and Linking | H | 2hrs| - | - |
-| API request based on user input | H | 2hrs| - | - |
-| Style search results | H | 3hrs| - | - |
-| Style image container | H | 2hrs| - | - |
-| Add banner | H | 1hrs| - | - |
-| Add title and opening paragraph | H | 1hrs| - | - |
-| Add font in CSS | H | 1hrs| - | - |
-| Align text and divider elements using Flexbox | H | 3hrs| - | - |
-| Style divider boxes in CSS | H | 2hrs| - | - |
-| Write function to clear previous search query | H | 2hrs| - | - |
-| Responsive Design for mobile | H | 3hrs| - | - |
-| Total | H | 26hrs| - | - |
+| API Research/Project Approval | H | 3hrs| 3hrs | 3hrs |
+| Pseudocode | H | 1hr | 1hr | 1hr |
+| Basic HTML/CSS/JS Form and Linking | H | 2hrs| 1.5hrs | 1.5hrs |
+| API request based on user input | H | 3hrs| 2hrs | 2hrs |
+| Style search results | H | 3hrs| 2hrs | 2hrs |
+| Style image container | H | 2hrs| 3hrs | 3hrs |
+| Add banner | H | 1hr | 0.5 hr | 0.5hr |
+| Add title and opening paragraph | H | 1hr | 1hr | 1hr |
+| Add font in CSS | H | 1hr | 0.5hr | 0.5hr |
+| Align text and divider elements using Flexbox | H | 3hrs| 3hrs | 3hrs |
+| Style divider boxes in CSS | H | 2hrs| 3hrs | 3hrs |
+| Write function to clear previous search query | H | 2hrs| 2hrs | 2hrs |
+| Responsive Design for mobile | H | 3hrs| 3hrs | 3hrs |
+| PMVP: Add/style screenshot data to gallery container | H | 3hrs| 4hrs | 4hrs |
+| PMVP: Add audio controls | H | 2hrs| 2hrs | 2hrs |
+| PMVP: Add window scroll to top | H | 1hr | 1hr | 1hr |
+| Total | H | 32hrs | 32.5hrs | 32.5hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+This code refers to my gallery which is an added PMVP. I was having trouble extracting the screenshots out of the data because there was quite a few. It took me a while to figure out on my own but I was able to solve the problem by using a for loop and looping through the array of screenshots. From there, I created an 'img" element and set that equal to the data and then appended it to the divider that needed to house the image. I love how the gallery looks and it was definitely the thing I needed to bring my project up a notch!
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+for (i = 0; i < game.short_screenshots.length; i++) {
+      const gameScreenshots = document.createElement('img')
+      gameScreenshots.src = `${game.short_screenshots[i].image}`
+      document.querySelector(".gallery-container").append(gameScreenshots)}
+  });
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ I could not extract game data by platform so I opted to render the screenshot data into a gallery. I also added a scroll function to force start the window at the top when refreshing the page.
