@@ -58,10 +58,7 @@ const renderList = (games) => {
     document.querySelector("#search-data").append(gameRating)
     let genreArray = []
     for (i = 0; i < game.genres.length; i++) {
-      
-      // gameGenre.innerText = `Genres: ${game.genres[i].name}`
       genreArray.push(game.genres[i].name)
-      
     }
     const gameGenre = document.createElement('h3')
     if (genreArray.length === 1) {
@@ -75,12 +72,10 @@ const renderList = (games) => {
         gameGenre.innerText = (`Genre: ${ genreArray[i]}, ${genreArray[i+1]}, ${genreArray[i+2]}`)
         }
     }
-    
     document.querySelector("#search-data").append(gameGenre)
     gameGenre.innerText
     const gameImage = document.createElement('img')
     gameImage.src = game.background_image
-    
     if (game.background_image === null) {
       document.querySelector('#image-data').style.background_image = null
     } else {
