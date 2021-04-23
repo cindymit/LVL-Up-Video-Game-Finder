@@ -2,7 +2,6 @@ const DOMAIN = 'https://api.rawg.io/api/';
 const API_KEY = '6759a297484a4e7dbebc9d3a8bb77ed4';
 const BASE_URL = `${DOMAIN}games?key={API_KEY}&`;
 
-
 // search url = `${DOMAIN}games?key={API_KEY}&search=${textInput}`;
 // example = "https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&search=destiny"
 
@@ -10,7 +9,6 @@ const BASE_URL = `${DOMAIN}games?key={API_KEY}&`;
 
 // Add HTML and connect all files.
 // Completed.
-
 
 
 // API request for search results.
@@ -26,9 +24,7 @@ async function searchVideoGames() {
       return null
     } else {
     const response = await axios.get(url)
-      // console.log(response.data.results)
       const smallAmt = response.data.results.slice(0, 1)
-      console.log(smallAmt)
       renderList(smallAmt)
       return response
     }
@@ -82,6 +78,7 @@ const renderList = (games) => {
       document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
       document.querySelector("#image-data").style.border  = '1px solid chartreuse'
     }
+// PMVP - Render and append screenshots to gallery.    
     for (i = 0; i < game.short_screenshots.length; i++) {
       const gameScreenshots = document.createElement('img')
       gameScreenshots.src = `${game.short_screenshots[i].image}`
@@ -89,21 +86,21 @@ const renderList = (games) => {
   });
 }
 
+//PVMP - Audio Controls
 let audioVolume = document.getElementById("audioPlayer");
 audioVolume.volume = 0.1;
 
+//Window scrolls to top upon refresh
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
 
 // Button event handler.
-
 const getSearchInput = document.querySelector('#search-button')
 getSearchInput.addEventListener('click', searchVideoGames)
 
 
 // Remove current search.
-
 function removeGameData() {
   const removeGameData = document.querySelector('#search-data')
   while (removeGameData.lastChild) {
@@ -111,6 +108,7 @@ function removeGameData() {
   }
 }
 
+//Remove current screenshots.
 function removeGallery() {
   const removeGallery = document.querySelector('.gallery-container')
   while (removeGallery.lastChild) {

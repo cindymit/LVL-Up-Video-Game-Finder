@@ -99,6 +99,7 @@ body {
   width: 100%;
   overflow: auto;
   margin: auto;
+  align-self: center;
 }
 
 .nav {
@@ -130,11 +131,12 @@ a:hover {
   color:chartreuse; 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   body {
-    width: 95%;
+    width: 100%;
   }
   .gallery-container img {
-    width: 95%;
+    width: 100%;
+    max-width: 400px;
   }
 }
