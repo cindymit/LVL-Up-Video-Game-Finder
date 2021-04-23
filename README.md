@@ -6,7 +6,7 @@ LVL Up! - Video Game Finder
 
 ## Project Description
 
-This database will help users look up video games by title by using and extracting data from RAWG's video games database API.
+This database will help users look up video games by input with data extracted from RAWG's video games database API. The results will show an image of the game and data including title, date of release, esgb rating, and genre(s). A gallery of screenshots will also render on the webpage.
 
 ## API and Data Sample
 
@@ -46,10 +46,11 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 - Add font in CSS.
 - Use flexbox styling to align dividers below opening paragraph and adjacent to each other.
 - Remove previous search results for new search.
-- Allow user to scroll back to the top of webpage.
+
 
 #### PostMVP  
 
+- Allow user to scroll back to the top of webpage.
 - Allow users to search by platforms. (e.g. platform name: Playstation 5)
 - Style the search bar with controller image.
 - Add music track and audio control to website.
@@ -91,7 +92,7 @@ I will be using RAWG's Video Games Database API (https://rawg.io/apidocs)
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+This code refers to my gallery which is an added PMVP. I was having trouble extracting the screenshots out of the data because there was quite a few. It took me a while to figure out on my own but I was able to solve the problem by using a for loop and looping through the array of screenshots. From there, I created an 'img" element and set that equal to the data and then appended it to the divider that needed to house the image. I love how the gallery looks and it was definitely the thing I needed to bring my project up a notch!
 
 ```
 for (i = 0; i < game.short_screenshots.length; i++) {
