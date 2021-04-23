@@ -56,14 +56,37 @@ const renderList = (games) => {
     const gameRating = document.createElement('h3')
     gameRating.innerText = `ESRB Rating: ${game.esrb_rating.name}`
     document.querySelector("#search-data").append(gameRating)
+    let genreArray = []
     for (i = 0; i < game.genres.length; i++) {
-      const gameGenre = document.createElement('h3')
-      gameGenre.innerText = `Genres: ${game.genres[i].name}`
-      document.querySelector("#search-data").append(gameGenre)
+      
+      // gameGenre.innerText = `Genres: ${game.genres[i].name}`
+      genreArray.push(game.genres[i].name)
+      
     }
+    const gameGenre = document.createElement('h3')
+    if (genreArray.length === 1) {
+      gameGenre.innerText = (`Genre: ${ genreArray[0]}`)
+    } else if (genreArray.length === 2) {
+      for (let i = 0; i < 1; i++) {
+      gameGenre.innerText = (`Genre: ${ genreArray[i]}, ${genreArray[i+1]}`)
+      }
+    } else {
+      for (let i = 0; i < 1; i++) {
+        gameGenre.innerText = (`Genre: ${ genreArray[i]}, ${genreArray[i+1]}, ${genreArray[i+2]}`)
+        }
+    }
+    
+    document.querySelector("#search-data").append(gameGenre)
+    gameGenre.innerText
     const gameImage = document.createElement('img')
     gameImage.src = game.background_image
-    document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
+    
+    if (game.background_image === null) {
+      document.querySelector('#image-data').style.background_image = null
+    } else {
+      document.querySelector("#image-data").style.backgroundImage = `url(${game.background_image})`
+      document.querySelector("#image-data").style.border  = '1px solid chartreuse'
+    }
     for (i = 0; i < game.short_screenshots.length; i++) {
       const gameScreenshots = document.createElement('img')
       gameScreenshots.src = `${game.short_screenshots[i].image}`

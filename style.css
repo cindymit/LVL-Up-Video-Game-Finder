@@ -73,10 +73,14 @@ body {
   width: 50%;
 }
 
+.vgImage  {
+  border: 1px solid chartreuse;
+} 
+
 #search-data {
   margin: 10px 0px 20px 0px;
   box-sizing: border-box;
-  width: 40%;
+  width: 50%;
   height: 300px;
   font-family: 'sans-serif';
   text-align: center;
@@ -89,7 +93,6 @@ body {
   width: 45%;
   border: 1px solid chartreuse;
   margin: 10px 10px 10px 10px;
-  flex-direction: row;
 }
 
 .gallery-container {
