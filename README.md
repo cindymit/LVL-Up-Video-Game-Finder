@@ -9,7 +9,7 @@ LVL Up! - Video Game Finder
 
 This database will help users look up video games by input with data extracted from RAWG's video games database API. The results will show an image of the game and data including title, date of release, esgb rating, and genre(s). A gallery of screenshots will also render on the webpage.
 
-[Deployed LVL Up! - Video Game Finder](https://cindymit.github.io/LVL-Up-Video-Game-Finder-P1/)
+https://cindymit.github.io/LVL-Up-Video-Game-Finder-P1/
 
 ## API and Data Sample
 
