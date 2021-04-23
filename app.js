@@ -1,4 +1,4 @@
-const DOMAIN = 'https://api.rawg.io/api/';
+const DOMAIN = 'http://api.rawg.io/api/';
 const API_KEY = '6759a297484a4e7dbebc9d3a8bb77ed4';
 const BASE_URL = `${DOMAIN}games?key={API_KEY}&`;
 
@@ -18,7 +18,7 @@ async function searchVideoGames() {
     removeGameData()
     removeGallery()
     let textInput = document.querySelector("#input-text").value
-    const url = `https://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&search=${textInput}`
+    const url = `http://api.rawg.io/api/games?key=6759a297484a4e7dbebc9d3a8bb77ed4&search=${textInput}`
     
     if (textInput === "") {
       return null
